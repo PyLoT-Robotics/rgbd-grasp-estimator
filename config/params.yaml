@@ -1,0 +1,13 @@
+rgbd_grasp:
+  ros__parameters:
+    depth_topic: /camera/aligned_depth_to_color/image_raw
+    camera_info_topic: /camera/color/camera_info
+    max_age_sec: 0.5
+    sync_tolerance_sec: 0.1
+    min_depth_m: 0.05
+    max_depth_m: 3.0
+    tolerance_m: 0.03
+    min_cluster_points: 12
+    max_points: 2000
+    sample_step: 2
+    offset_m: 0.03
